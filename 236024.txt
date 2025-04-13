@@ -1,0 +1,45 @@
+Дел 2: Имплементација на функционалности
+
+13. git fetch origin # ги излистав новите гранки и почнав со имплементација.
+14. git checkout 1-remove-a-task-by-name # креирав гранка за првиот feature.
+15. nano SI2025Lab1Main.java # ја имплементирав функцијата за бришење задача по име (removeTask).
+16. git add SI2025Lab1Main.java
+       git commit -m "Implemented removeTask function"
+17. git push # ја синхронизирав гранката со remote.
+18. На GitHub создадов Pull Request со наслов "1-remove-a-task-by-name" и го одобрив.
+
+19. git checkout 3-sort-tasks-by-name # креирав гранка за вториот feature.
+20. nano SI2025Lab1Main.java # ја додадов функцијата за сортирање задачи по име (sortTasksByName).
+21. git add SI2025Lab1Main.java
+       git commit -m "Implemented sortTasksByName"
+22. git push # ја синхронизирав гранката со remote.
+23. На GitHub креирав Pull Request со наслов "3-sort-tasks-by-name" и го одобрив.
+
+24. git checkout 5-filter-tasks-by-category # креирав гранка за третиот feature.
+25. nano SI2025Lab1Main.java # ја додадов функцијата за филтрирање задачи според категорија (filterByCategory).
+26. git add SI2025Lab1Main.java
+       git commit -m "Implemented filtedByCategory function"
+27. git push # ја синхронизирав гранката со remote.
+28. На GitHub креирав Pull Request со наслов "5-filter-tasks-by-category" и го одобрив.
+
+29. Откако сите Pull Requests беа одобрени, ги споив првите 2 branches со master branch-от.
+30. Го споив последниот branch локално со master на следниот начин: 
+	git checkout master
+      	git pull origin master
+	git merge 5-filter-task-by-category
+31. Го синхронизирав назад со remote со
+	git push origin master
+32. Го создадов logs.txt и ги копирав информациите од git log --oneline --graph --all
+33. Го создадов 236024.txt и го напишав се’ ова и на крај ги синхронизирав remote и local.
+
+Дел 3: Forking git workflow
+
+34. На GitHub профилот на Стефан го пронајдов репозиториумот и го fork-нав со 2 клика.
+35. git clone https://github.com/oxSTERBENxo/SI_2025_lab1_151020.git
+36. cd SI_2025_Lab1_151020
+       cat > 236024.txt  #во него испишав име презиме
+37. git add .
+       git commit -m "Add file"
+38. git push origin master
+39. Во самиот forked repo ми дава дека сум 1 commit ahead. Кликнав contribute па Create a pull request.
+4-. Како наслов го ставив само мојот индекс 236024.

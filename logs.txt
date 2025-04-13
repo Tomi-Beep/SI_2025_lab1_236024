@@ -1,0 +1,15 @@
+*   3017906 (HEAD -> master, origin/master, origin/HEAD) Merge branch '5-filter-task-by-category'
+|\
+| * 1ce74f4 (origin/5-filter-task-by-category, 5-filter-task-by-category) Implemented filtedByCategory function
+* |   672f4fa Merge pull request #11 from Tomi-Beep/3-list-tasks-sorted-by-name
+|\ \
+| * | abf2b93 (origin/3-list-tasks-sorted-by-name, 3-list-tasks-sorted-by-name) Implemented sortTasksByName function
+| |/
+* |   35af7d2 Merge pull request #10 from Tomi-Beep/1-remove-a-task-by-name
+|\ \
+| |/
+|/|
+| * f2e34e9 (origin/1-remove-a-task-by-name, 1-remove-a-task-by-name) Implemented removeTask function
+|/
+* a583952 Java file added
+* 75ad7b0 Initial commit
